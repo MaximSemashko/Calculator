@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="454.0" prefWidth="350.0" style="-fx-background-color: fafafa;">
+         <children>
+            <Button fx:id="OneClick" layoutX="70.0" layoutY="325.0" mnemonicParsing="false" onAction="#one_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="1" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="TwoClick" layoutX="140.0" layoutY="325.0" mnemonicParsing="false" onAction="#two_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="2" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="ThreeClick" layoutX="210.0" layoutY="325.0" mnemonicParsing="false" onAction="#three_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="3" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="EqualClick" layoutX="280.0" layoutY="325.0" mnemonicParsing="false" onAction="#equal_click" prefHeight="129.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="=" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="FourClick" layoutX="70.0" layoutY="260.0" mnemonicParsing="false" onAction="#four_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="4" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="FiveClick" layoutX="140.0" layoutY="260.0" mnemonicParsing="false" onAction="#five_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="5" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="SixClick" layoutX="210.0" layoutY="260.0" mnemonicParsing="false" onAction="#six_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="6" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="SevenClick" layoutX="70.0" layoutY="195.0" mnemonicParsing="false" onAction="#seven_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="7" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="EightClick" layoutX="140.0" layoutY="195.0" mnemonicParsing="false" onAction="#eight_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="8" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="NineClick" layoutX="210.0" layoutY="195.0" mnemonicParsing="false" onAction="#nine_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="9" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="MinusClick" layoutX="280.0" layoutY="260.0" mnemonicParsing="false" onAction="#minus_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="-" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="PlusClick" layoutX="280.0" layoutY="195.0" mnemonicParsing="false" onAction="#plus_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="+" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="DivisionClick" layoutX="140.0" layoutY="130.0" mnemonicParsing="false" onAction="#division_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="÷" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="MultipleClick" layoutX="210.0" layoutY="130.0" mnemonicParsing="false" onAction="#multiple_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="×" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="ClearClick" layoutX="280.0" layoutY="130.0" mnemonicParsing="false" onAction="#clear_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="C" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="SqrtClick" layoutX="70.0" layoutY="389.0" mnemonicParsing="false" onAction="#sqrt_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="√" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="ZeroClick" layoutX="140.0" layoutY="389.0" mnemonicParsing="false" onAction="#zero_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+            <Button fx:id="CommaClick" layoutX="210.0" layoutY="389.0" mnemonicParsing="false" onAction="#comma_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="," textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="SInClick" layoutY="390.0" mnemonicParsing="false" onAction="#sin_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #ffaa00; -fx-border-color: fafafa;" text="sin" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="CosClick" layoutY="325.0" mnemonicParsing="false" onAction="#cos_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #ffaa00; -fx-border-color: fafafa;" text="cos" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="TanClick" layoutY="260.0" mnemonicParsing="false" onAction="#tan_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #ffaa00; -fx-border-color: fafafa;" text="tan" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="CtgClick" layoutY="195.0" mnemonicParsing="false" onAction="#ctg_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #ffaa00; -fx-border-color: fafafa;" text="ctg" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="InverseFunctionClick" layoutY="130.0" mnemonicParsing="false" onAction="#refersefun_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #ffaa00; -fx-border-color: fafafa;" text="1/x" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Result_Field" alignment="CENTER_RIGHT" layoutX="2.0" layoutY="29.0" prefHeight="100.0" prefWidth="346.0" style="-fx-background-color: fafafa;">
+               <font>
+                  <Font name="Consolas" size="30.0" />
+               </font>
+            </TextField>
+            <Label fx:id="prom" alignment="CENTER_RIGHT" layoutX="2.0" layoutY="3.0" prefHeight="22.0" prefWidth="346.0" textAlignment="RIGHT">
+               <font>
+                  <Font name="Consolas" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="fromPlusToMinus" layoutX="70.0" layoutY="130.0" mnemonicParsing="false" onAction="#plusToMinus_click" prefHeight="65.0" prefWidth="70.0" style="-fx-background-color: #4286f4; -fx-border-color: fafafa;" text="+-" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
